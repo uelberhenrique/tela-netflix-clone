@@ -1,0 +1,62 @@
+
+/* Regras Gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    color: #FFFFFF; 
+}
+
+body{
+    max-width: 100%;
+    background-image: url(/img/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg);
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: #E50914;
+    color: #FFFFFF;
+}
+
+ /* MENU DE NAVEGAÇÃO*/
+
+.menu-navigation {
+    display: flex;
+    padding-top: 2%;
+    flex-flow: row nowrap;
+    margin-bottom: 10%;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.logo {
+    width: 10%;
+    background-color: black; 
+    margin-right: 82%;
+}
+
+.entrar-superior {
+   display: block;
+   width: 55px;
+   height: 25px;
+   border-radius: 5px;
+   background-color: #E50914;
+   text-align: center;
+   text-decoration: none;
+   padding: 9px 15px 2px;
+}
+
+.btn-entrar {
+   font-size: 1rem;
+   font-weight: 400;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
