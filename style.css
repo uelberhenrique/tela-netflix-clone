@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none; 
     color: #FFFFFF; 
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body{
@@ -57,7 +58,7 @@ button {
 .btn-entrar {
    font-size: 1rem;
    font-weight: 400;
-   font-family:Arial, Helvetica, sans-serif;
+   font-style: normal;
 }
 
 /* medias Menu de Navegação */
@@ -158,6 +159,35 @@ button {
 
 /* Corpo */
 
+.corpo {
+    padding: 175px 70px 80px;
+    width: 950px;
+    margin: auto auto;
+}
+
+.content-corpo {
+    max-width: 678px;
+    height: 273px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.title-main {
+   font-weight: 700; 
+   font-size: 50px;
+   line-height: 55px;
+   
+}
+
+.sub-title {
+    padding: 18px 0 35px;
+    font-size: 26px;
+}
+
+.email-form h3 {
+    font-weight: 400;
+    font-size: 19px;
+}
 
 
 
