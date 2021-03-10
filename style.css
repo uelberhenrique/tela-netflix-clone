@@ -8,9 +8,16 @@
 }
 
 body{
+    background-color: #222222;  
+}
+
+.main {
     max-width: 100%;
-    background-image: url(/img/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg);
+    height: 670px;
+    background: linear-gradient(to top,rgba(0,0,0,.9) 0,rgba(0,0,0,0.5) 40%,rgba(0,0,0,0) 75%,rgba(0,0,0,.9) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/70deccb9-9b6c-4be1-b781-18dd1bcd9264/870b5d0c-3d97-4e48-b30b-b06e004291b2/BR-pt-20210301-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 button {
@@ -20,22 +27,24 @@ button {
 
  /* MENU DE NAVEGAÇÃO*/
 
+ .container-menu {
+     width: 100%;
+     padding-top: 3%;
+}
+
 .menu-navigation {
     display: flex;
-    padding-top: 2%;
-    flex-flow: row nowrap;
-    margin-left: 56px;
-    margin-right: 56px;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
 }
 
 .logo {
-    width: 130px;
-    background-color: black; 
-    margin-right: 82%;
+    width: 133px;
 }
 
 .entrar-superior {
-   display: block;
+   display: block; /*fazer o preenchimento com padding */
    width: 55px;
    height: 25px;
    border-radius: 5px;
