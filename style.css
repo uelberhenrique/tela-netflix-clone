@@ -22,9 +22,16 @@ body{
 }
 
 button {
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #E50914;
     color: #FFFFFF;
 }
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid blue;
+    outline: 0;
+} 
 
  /* MENU DE NAVEGAÇÃO*/
 
@@ -162,32 +169,60 @@ button {
 .corpo {
     padding: 175px 70px 80px;
     width: 950px;
-    margin: auto auto;
-}
-
-.content-corpo {
-    max-width: 678px;
-    height: 273px;
-    margin: 0 auto; 
-    text-align: center;
+    margin: auto auto;  
 }
 
 .title-main {
    font-weight: 700; 
    font-size: 50px;
    line-height: 55px;
-   
+   margin: 0 140px;
+   text-align: center;
 }
 
 .sub-title {
-    padding: 18px 0 35px;
     font-size: 26px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .email-form h3 {
+    margin: 20px 0 15px 128px;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 20.4px;
 }
+
+.input-email {
+    display: flex;
+    box-sizing: border-box;
+    width: 633px;
+    height: 70px;
+    margin: 20px 0px 0px 145px;
+}
+
+.input-email input {
+    height: 100%;
+    width: 70%;
+}
+
+.input-email button {
+    height: 107%;
+    width: 30%;
+    font-size: 26px;
+    margin-left: 0.42px;
+}
+
+.input-email input::placeholder {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
 
 
 
