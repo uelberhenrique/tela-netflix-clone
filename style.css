@@ -14,11 +14,11 @@ body{
 
 .main {
     max-width: 100%;
-    height: 670px;
+    height: 630px;
     background: linear-gradient(to top,rgba(0,0,0,.9) 0,rgba(0,0,0,0.5) 40%,rgba(0,0,0,0) 75%,rgba(0,0,0,.9) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/70deccb9-9b6c-4be1-b781-18dd1bcd9264/870b5d0c-3d97-4e48-b30b-b06e004291b2/BR-pt-20210301-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
 button {
@@ -37,7 +37,7 @@ textarea:focus, input:focus, select:focus {
 
  .container-menu {
      width: 100%;
-     padding-top: 3%;
+     padding-top: 2.3%;
 }
 
 .menu-navigation {
@@ -167,7 +167,7 @@ textarea:focus, input:focus, select:focus {
 /* Corpo */
 
 .corpo {
-    padding: 175px 70px 80px;
+    padding-top: 155px;
     width: 950px;
     margin: auto auto;  
 }
@@ -202,20 +202,26 @@ textarea:focus, input:focus, select:focus {
 }
 
 .input-email input {
-    height: 100%;
+    height: 72%;
     width: 70%;
 }
 
 .input-email button {
-    height: 107%;
+    height: 79%;
     width: 30%;
     font-size: 26px;
     margin-left: 0.42px;
+    border-style: none;
 }
 
 .input-email input::placeholder {
     padding-left: 10px;
     font-size: 16px;
+}
+
+.input-email input:focus{
+    resize: none;
+   
 }
 
 
